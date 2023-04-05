@@ -1,21 +1,21 @@
 class Main {
   public static void main(String[] args) {
-    int number = 11;
-    String text = "Ruby";
-    System.out.println(number);
-    System.out.println(text);
+    int length = 6;
+    int height = 8;
 
-    // 変数numberを9で上書きしてください
-    number = 9;
+    // 変数rectangleAreaに、四角形の面積を代入してください
+    // int型で指定することを忘れないこと。
+    int rectangleArea = length * height;
 
-    // 変数numberを出力してください
-    System.out.println(number);
+    // 変数rectangleAreaを出力してください
+    System.out.println(rectangleArea);
 
-    // 変数textを「Java」で上書きしてください
-    text = "Java";
+    // 変数triangleAreaに、三角形の面積を代入してください
+    // int型で指定することを忘れないこと。
+    int triangleArea = length * height / 2;
 
-    // 変数textを出力してください
-    System.out.println(text);
+    // 変数triangleAreaを出力してください
+    System.out.println(triangleArea);
 
   }
 }
